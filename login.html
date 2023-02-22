@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+</head>
+
+<style>
+
+
+body
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    width: 340px;
+    text-align: center;
+    margin: 0;
+    padding:0 ;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+
+
+}
+
+.center
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: antiquewhite;
+    border-radius: 13px;
+    height: 60vh;
+    
+}
+
+.center h1
+{
+    text-align: center;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
+form .text_field
+{
+    position: relative;
+    
+}
+
+.text_field input
+{
+    width: 95%;
+    padding: 0 5px;
+    height: 50px;
+    font-size: 20px;
+    border-radius:10px;
+    background-color: cornsilk;
+    border-color: black;
+    
+
+}
+.login input
+{
+    width: 95%;
+    padding: 0 5px;
+    height: 50px;
+    font-size: 20px;
+    border-radius:50px;
+    background-color:lightgoldenrodyellow;
+    border-color: black;
+    
+
+}
+
+.home{
+        background-image: url("home.jpeg");
+        background-repeat: no-repeat;
+        border: 3px solid #000000;
+        border-radius: 50%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+        height: 58px;
+        width: 58px;
+}
+
+@media only screen and (max-width: 600px) 
+{
+   
+}
+
+</style>
+<body>
+    <div class="center">
+        <h1><u>LOGIN</u></h1>
+        <form method="post">
+            <div class="text_field">
+                <input type="email" placeholder="USERNAME" required>
+            </div>
+            <br>
+            <div class="text_field">
+                <input type="password" placeholder="PASSWORD" required>
+            <br><br>
+            </div>
+            </form>
+            <a href="page3.html">
+            <div class="login">
+                    <input type="submit" value="LOGIN">
+            </div></a>
+        
+        <br><br>
+        
+            <a href="index.html"><div class="home"></div></a>
+    </div>
+    
+</body>
+</html>

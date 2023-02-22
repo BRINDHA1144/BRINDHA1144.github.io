@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE WITH VSCODE</title>
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Raleway");
+
+:root {
+  
+  --glow-color:aquamarine;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.glowing-btn {
+  position: relative;
+  color: var(--glow-color);
+  cursor: pointer;
+  padding: 0.35em 1em;
+  border: 0.15em solid var(--glow-color);
+  border-radius: 0.55em;
+  background: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 1em;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .glowing-btn{
+    font-size: 1.5em;
+  }
+}
+
+
+</style>
+<body>
+    <a href="login.html"><button type="submit" class='glowing-btn'>CODE WITH VSCODE</button></a>
+</body>
+</html>
